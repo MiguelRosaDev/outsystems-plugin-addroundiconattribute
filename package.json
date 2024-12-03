@@ -1,0 +1,14 @@
+{
+  "name": "addroundiconattribute",
+  "version": "1.0.0",
+  "description": "Adds the android:roundIcon attribute to the application tag in AndroidManifest.xml",
+  "cordova": {
+    "id": "com.outsystems.experts.outsystems-plugin-addroundiconattribute",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "OutSystems Native Experts",
+  "license": "ISC"
+}
