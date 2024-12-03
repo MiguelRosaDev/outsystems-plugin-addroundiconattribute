@@ -8,8 +8,8 @@
     <author>OutSystems Native Experts</author>
 
     <platform name="android">
-        <config-file target="AndroidManifest.xml" parent="/manifest">
+        <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
             <application android:roundIcon="@mipmap/ic_launcher_round" />
-        </config-file>
+        </edit-config>
     </platform>
 </plugin>
