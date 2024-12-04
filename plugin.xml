@@ -9,9 +9,5 @@
 
     <platform name="android">
         <hook src="scripts/addRoundIcon.js" type="after_prepare" />
-        <!--<edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
-            <application android:roundIcon="@mipmap/ic_launcher_round" />
-        </edit-config>
-        -->
     </platform>
 </plugin>
